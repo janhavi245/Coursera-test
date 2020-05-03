@@ -48,7 +48,7 @@
   width: 20px;
   height: 20px;
 }*/
-
+/*
 body {
   background-color: gray;
 }
@@ -127,3 +127,83 @@ font-size: 30px;
     margin-top: 50px;
   }
  }
+ */
+
+ body{
+  background-color: #FDF5E6;
+  color: #1C1C1BFF;
+  font-family: Apple Chancery, cursive;
+ }
+
+ #nid {
+  background-color: lightgray;
+  border: 0;
+  border-radius: 0;
+  height: 70px;
+ }
+
+ .navbar-brand h1 {
+  margin: 0;
+  padding-left: 10px;
+  color: #1C1C1BFF;
+  margin-left: 30px;
+ }
+ .navbar-brand a:hover , .navbar-brand a:focus {
+  text-decoration: none;
+ }
+ .navbar-brand {
+  padding: 20px 0 10px;
+ }
+
+ .navbar-default .navbar-toggle {
+margin-top: 20px;
+border: 1.5px solid #1C1C1BFF;
+margin-right: 30px;
+ }
+
+.navbar-default .navbar-toggle .icon-bar {
+  height: 3px;
+  background-color:#1C1C1BFF;
+}
+div#collapsable-nav {
+  width: 100%;
+  margin: 0;
+}
+#list {
+  background-color: white;
+}
+
+#list li {
+  text-align: center;
+  font-size: 20px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color:#1C1C1BFF;
+}
+#list li a:hover {
+  background-color: darkgrey;
+  color: white;
+}
+#headcon {
+ padding: 0;
+}
+
+#main-content {
+  background-color: white;
+  height: 1000px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  opacity: 0.8;
+  padding: 5px 20px 20px 20px;
+} 
+#main-content>h3 {
+  color: black;
+}
+
+@media (max-width: 767px) {
+  #main {
+margin-top: 90px;
+  }
+
+}
