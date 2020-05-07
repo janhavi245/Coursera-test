@@ -13,15 +13,15 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
 var dc = {};
 
-var homeHtmlUrl = "https://github.com/janhavi245/Coursera-test/blob/master/mod5-Solution/snippets/home-snippet.html";
+var homeHtmlUrl = "snippets/home-snippet.html";
 var allCategoriesUrl =
   "https://davids-restaurant.herokuapp.com/categories.json";
-var categoriesTitleHtml = "https://github.com/janhavi245/Coursera-test/blob/master/mod5-Solution/snippets/categories-title-snippet.html";
-var categoryHtml = "https://github.com/janhavi245/Coursera-test/blob/master/mod5-Solution/snippets/category-snippet.html";
+var categoriesTitleHtml = "snippets/categories-title-snippet.html";
+var categoryHtml = "snippets/category-snippet.html";
 var menuItemsUrl =
   "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
-var menuItemsTitleHtml = "https://github.com/janhavi245/Coursera-test/blob/master/mod5-Solution/snippets/menu-items-title.html";
-var menuItemHtml = "https://github.com/janhavi245/Coursera-test/blob/master/mod5-Solution/snippets/menu-item.html";
+var menuItemsTitleHtml = "snippets/menu-items-title.html";
+var menuItemHtml = "snippets/menu-item.html";
 
 // Convenience function for inserting innerHTML for 'select'
 var insertHtml = function (selector, html) {
